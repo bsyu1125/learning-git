@@ -1,9 +1,9 @@
-# Basic git workflows
+# Basic Git workflows
 This document is to describe various git workflows.
 
 ## Basic questions
 
-### How do I get my local changes into github?
+### How do I get my local changes into Github?
 1. Check the status of your local repository
     - In your git repository run: `git status`
     - What you should be looking for:
@@ -24,3 +24,12 @@ This document is to describe various git workflows.
 Note:
 - You can combine steps 1 and 2 with this command: `git commit -am "{your commit message}"`
     - `git commit -am` is pretty much `git add -A` with `git commit -m`
+
+### How do I create a new branch?
+1. Make a local branch by running: `git branch {branchName}`
+
+Creating a local branch does not mean that you are automatically working in that branch. To start working in that branch you will need to _checkout_ the branch by running: `git checkout {branchName}`.
+
+But there's a better way to do this since it's such a common workflow!
+
+1. Make a local branch **AND** checkout that branch by running: `git checkout -b {branchName}`
