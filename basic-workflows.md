@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 # Basic git workflows
 This document is to describe various git workflows.
 
