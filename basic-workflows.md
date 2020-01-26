@@ -21,6 +21,7 @@ This document is to describe various git workflows.
     - Run: `git commit -m "{your commit message}"`
 1. Push your commits.
     - Run: `git push`
+    - If you get an error that there is no upstream branch, do not fret. Set your upstream branch: `git push --set-upstream origin {name-of-branch}`
 
 Note:
 - You can combine steps 1 and 2 with this command: `git commit -am "{your commit message}"`
